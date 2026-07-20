@@ -7,7 +7,7 @@ Projeto de estudo em C#/.NET para explorar **streaming em tempo real** com **Sig
 O projeto é dividido em duas aplicações independentes:
 
 - **Servidor** (`ServerBaltaSignalR`): expõe um Hub SignalR que transmite dados a cada segundo.
-- **Cliente**: uma aplicação console que se conecta ao Hub e consome o stream em tempo real.
+- **Cliente** (`ClientBaltaSignalR`): uma aplicação console que se conecta ao Hub e consome o stream em tempo real.
 
 ## 🚀 Como executar
 
@@ -25,7 +25,7 @@ O servidor sobe (por padrão) em algo como `http://localhost:5136`.
 Em outro terminal:
 
 ```bash
-cd Client
+cd ClientBaltaSignalR
 dotnet run
 ```
 
